@@ -1,0 +1,21 @@
+PODS:
+  - Turbolinks (1.0.2)
+
+DEPENDENCIES:
+  - Turbolinks (from `https://github.com/turbolinks/turbolinks-ios.git`)
+
+EXTERNAL SOURCES:
+  Turbolinks:
+    :git: https://github.com/turbolinks/turbolinks-ios.git
+
+CHECKOUT OPTIONS:
+  Turbolinks:
+    :commit: 3e779d1e93b0f4e59dad2bd8f9af9d34ebda4fcf
+    :git: https://github.com/turbolinks/turbolinks-ios.git
+
+SPEC CHECKSUMS:
+  Turbolinks: d8209bab43803adae8c06d434368e16479023407
+
+PODFILE CHECKSUM: 5decb2af17d1c48029862d0ceb64fde250e49434
+
+COCOAPODS: 1.0.1
