@@ -125,7 +125,7 @@ public class VisitableView: UIView {
     }
 
     public func updateScreenshot() {
-        guard let webView = self.webView where !isShowingScreenshot, let screenshot = webView.snapshotViewAfterScreenUpdates(false) as? UIView else { return }
+        guard let webView = self.webView where !isShowingScreenshot, let screenshot = webView.snapshotViewAfterScreenUpdates(false) else { return }
         
         screenshotView?.removeFromSuperview()
         screenshot.translatesAutoresizingMaskIntoConstraints = false
